@@ -4,8 +4,8 @@ import { VideoPlayer } from "./components/player";
 export const App = () => {
   return (
     <div>
-      <AppBar position="static" color="inherit">
-        <Typography align="center" variant="h2">
+      <AppBar position="static" color="inherit" className="app-bar">
+        <Typography align="center" variant="h4">
           Video Chat
         </Typography>
       </AppBar>

@@ -1,3 +1,9 @@
-export const VideoPlayerOptions = () => {
-  return <>Video Player Option</>;
+import type { ReactNode } from "react";
+
+type PropsType = {
+  children: ReactNode;
+};
+
+export const VideoPlayerOptions = ({ children }: PropsType) => {
+  return <>{children}</>;
 };
